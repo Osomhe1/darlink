@@ -78,3 +78,10 @@ export const GET_USERS = {
   DELETE_ACC: () => '/auth/user',
 }
 
+
+export const WALLET = {
+  GET_WALLET: () => '/wallet/balance',
+  GET_WALLET_HISTORY: () => '/wallet/history',
+  FUND_WALLET: () => '/wallet',
+}
+
